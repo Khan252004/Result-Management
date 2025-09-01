@@ -1,0 +1,56 @@
+/* Card block */
+.card {
+  color: black;
+  background-color: #ffffff;
+  padding: 40px 35px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Inputs container (stack vertically) */
+.input-group {
+  display: flex;
+  flex-direction: column; /* ensures vertical stacking */
+  gap: 18px;             /* spacing between input boxes */
+}
+
+/* Input fields */
+.card input {
+  color: black;
+  width: 100%;
+  padding: 14px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #fafafa;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74,144,226,0.4);
+}
+
+/* Button */
+.card button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px; /* space above button */
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.card button:hover {
+  background: #357ABD;
+  transform: translateY(-2px);
+}
